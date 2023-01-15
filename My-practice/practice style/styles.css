@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.donate {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(../images/donation7.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-donate {
+    width: 826px;
+    height: 309px;
+    top: 219px;
+    left: 412px;
+    /* display: absolute; */
+    text-align: center;
+
+
+}
+
+.donate-title {
+    /* position: absolute; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.donate-descripton {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.donate-btn {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #b85209;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 20px;
+}
+
+.donation {
+   /* position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 300px;
+   height: 300px;
+   background-color: black; */
+   text-align: center;
+
+}
+.donate-today{
+    font-size: 65px;
+}
+
+.donation-desc{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.donation .tk{
+    display: flex;
+    justify-content: center;
+    font-size: 35px ;
+    gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cadetblue;
+   
+}
+
+.donation .tk .tkn{
+    border: 2px solid grey;
+    border-radius: 5px;
+   padding: 10px;
+   background-color: #b85209;
+
+   color: #FFFFFF;
+}

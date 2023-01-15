@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="styles/nav.css">
+        
+    <style>
+        input , label{
+           
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        fieldset{
+            color: darkblue;
+            background-color: lightgray;
+            font-size: 1.2rem;
+        }
+        fieldset > legend{
+            color: black;
+            font-size: 1.5rem;
+
+        }
+        table{
+            border: 2px solid tomato;
+            border-collapse: collapse;
+            width: 350px;
+        }
+        tr,td,th{
+            border: 1px solid black;
+            padding: 10px 15px;
+            color: black;
+            
+            
+        }
+        caption{
+            font-weight: bolder;
+            font-size: 1.5rem;
+            text-decoration: underline;
+            
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            
+            <ul>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li>
+                    <a href="audio-video.html">Media</a>
+                    <ul  class="dropdown">
+                        <li><a href="semantic.html">Semantic</a></li>
+                        <li><a href="audio-video.html">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1> Student Addmission Form </h1>
+   <form>
+        <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" placeholder="Type Name" required><br>
+    
+             <label for="email">Your Email:</label>
+        <input type="email" name="email" id=" email" placeholder="Type Email" required ><br>
+
+        <label for="password">Enter Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required >
+        <br>
+            <fieldset>
+                <legend>Choose one subject</legend>
+                <input type="radio" name="sub" id="Science">Science <br>
+                <input type="radio" name="sub" id="Humanities">Humanities <br>
+                <input type="radio" name="sub" id="Business Studies">Business Studies
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Choose Religion</legend>
+                <input type="checkbox" name="cw" id="Islam">Islam <br>
+                <input type="checkbox" name="cw" id="Hindu">Hindu <br>
+                <input type="checkbox" name="cw" id="Buddah">Buddah
+            </fieldset>
+            <br>
+            <textarea name="Message" id="message" cols="60" rows="5">Your Openion</textarea>
+            <br>
+
+
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+   
+
+   </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>                    
+                    <th>Roll</th>
+                    <th>Subject</th>
+                    <th>Sec.</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <caption>Students Statistic Table </caption>
+                <tr>
+                    <td>Rifat Islam</td>
+                    <td>101</td>
+                    <td>Science</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Rasel khan</td>
+                    <td>102</td>
+                    <td>Math</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>Anisul Islam</td>
+                    <td>103</td>
+                    <td>English</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>Ashikul Islam</td>
+                    <td>104</td>
+                    <td>Economy</td>
+                    <td>D</td>
+                </tr>
+
+            </tbody>
+
+           
+        </table>
+
+
+</body>
+</html>

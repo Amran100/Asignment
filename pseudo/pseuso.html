@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        p:hover{
+            background-color: red;
+            color: white;
+            font-size: 80px;
+            font-weight: 600;
+        }
+
+        input:focus{
+            color: deeppink;
+            border: 3px solid blue;
+            border-radius: 5px;
+        }
+
+        a:visited{
+            color: red;
+        }
+        li:last-child{
+            color: tomato;
+        }
+        li:nth-child(2n+1){
+            color: brown;
+        }
+
+        h2::before{
+            content: 'Added ';
+        }
+        h2::after{
+            content: ' style ';
+            color: purple;
+            background-color: aquamarine;
+            border: 4px;
+            border-radius: 10px;
+            font-size: 25px;
+            font-family: monospace;
+            padding-right: 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <p>My name is amran hossen</p>
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text">
+
+    <a href="https://www.google.com/"> visit google</a>
+    <a href="https://ludwig.guru/s/I+never+visited">never visited</a>
+    
+    <h2>This is h2-1</h2>
+    <h2>This is h2-2</h2>
+    <h2>This is h2-3</h2>
+    <h2>This is h2-4</h2>
+    <h2>This is h2-5</h2>
+    <h2>This is h2-6</h2>
+    <ul>
+        <li>fish</li>
+        <li>dish</li>
+        <li>liss</li>
+        <li>esss</li>
+        <li>hiss</li>
+        <li>tiss</li>
+        <li>riss</li>
+        <li>miss</li>
+    </ul>
+</body>
+</html>
